@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  app.kubernetes.io/name: app
+  name: app
   namespace: dev
 
 spec:
